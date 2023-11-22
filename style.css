@@ -1,0 +1,23 @@
+html{
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    width: 75vh;
+
+}
+.header{
+    background-color: rgb(35, 34, 121);
+    display: flex;
+    gap: 25%;
+    padding-left: 20px;
+    /* justify-content: center; */
+    align-items: center;
+}
+.header ul li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.welcome{
+    height: 200px;
+}
