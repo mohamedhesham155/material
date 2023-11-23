@@ -15,6 +15,10 @@ html{
 body{
 margin-top: 30svh;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 .header{
     /* background-color: #202d3b; */
     /* background-color: #121C03; */
@@ -59,16 +63,22 @@ margin-top: 30svh;
     /* margin: 10px; */
     font-size: 50px;
     border-radius: 20px;
-    /* border: 2px dashed #2E81E5; */
+    border: 2px groove #2E81E5;
     color: #ffffff;
     background-color: rgba(255, 255, 255, 0.13);
     justify-self: center;
     align-self: center;
     text-align: center;
     backdrop-filter:blur(10px);
+    text-decoration: none;
+
 
 }
-.important{
+.years  :hover{
+    background-color: rgb(99, 172, 255);
+    transition: 0.8s ;
+}
+#important{
     height: 200px;
     background-color: rgb(0, 68, 255);
     display: grid;
@@ -76,10 +86,13 @@ margin-top: 30svh;
     text-align: center;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 
 }
-.important h1{
+#important .solved{
+    grid-area: 3/2/4/3;
+}
+#important h1{
     grid-area: 1/1/2/4; 
  }
 .footer{
