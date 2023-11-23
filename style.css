@@ -3,7 +3,7 @@ html{
     font-family:sans-serif;
     background-color: rgb(44, 44, 44);
     color: white;
-    width: 100dvw;
+    width: 100vw;
     /* height: 100vh; */
     margin: auto;
     display: flex;
