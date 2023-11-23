@@ -3,7 +3,7 @@ html{
     font-family:sans-serif;
     background-color: rgb(44, 44, 44);
     color: white;
-    width: 100vw;
+    width: 100vh;
     /* height: 100vh; */
     margin: auto;
     display: flex;
@@ -14,13 +14,15 @@ html{
 }
 body{
 /* margin-top: 30svh; */
+
 }
 a{
     text-decoration: none;
     color: white;
 }
 .header{
-    /* background-color: #202d3b; */
+    /* background-color: #202d3b; */    width: 100vh;
+
     /* background-color: #121C03; */
     background-image: url(image/background.png);
     display: flex;
